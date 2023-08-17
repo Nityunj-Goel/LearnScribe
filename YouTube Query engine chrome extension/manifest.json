@@ -1,0 +1,14 @@
+{
+  "name": "LearnScribe",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "static/logo.png"
+  },
+  "permissions": ["tabs","activeTab"],
+  "action": {
+    "default_popup": "templates/index.html",
+    "default_icon": "static/logo.png"
+  },
+  "content_security_policy": {}
+}
